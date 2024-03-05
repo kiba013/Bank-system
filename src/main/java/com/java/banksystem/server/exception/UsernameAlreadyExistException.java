@@ -1,0 +1,1 @@
+package com.java.banksystem.server.exception;public class UsernameAlreadyExistException extends RuntimeException{    public UsernameAlreadyExistException() {        super();    }    public UsernameAlreadyExistException(String message) {        super(message);    }}

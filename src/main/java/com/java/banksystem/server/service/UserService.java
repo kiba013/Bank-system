@@ -1,0 +1,1 @@
+package com.java.banksystem.server.service;import com.java.banksystem.web.dto.UserDto;import java.util.List;public interface UserService {    UserDto createUser(UserDto userDto);    List<UserDto> getAllUsers();    UserDto getUserById(Long id);    void deleteUser(Long id);}

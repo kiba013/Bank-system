@@ -1,0 +1,1 @@
+package com.java.banksystem.server.repository;import com.java.banksystem.server.entity.User;import com.java.banksystem.web.dto.UserDto;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface UserRepository extends JpaRepository<User, Long> {    boolean existsByName(String username);}
